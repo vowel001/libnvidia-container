@@ -1,9 +1,5 @@
 
 FROM ubuntu:18.04
-
-USER khalid
-USER gitpod
-
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y --no-install-recommends \
         apt-utils \

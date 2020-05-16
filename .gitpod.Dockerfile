@@ -1,7 +1,7 @@
-ARG BASEIMAGE
-FROM ${BASEIMAGE}
-FROM ${BASEIMAGE}:tag
 
+FROM ubuntu:18.04
+
+USER khalid
 USER gitpod
 
 ENV DEBIAN_FRONTEND=noninteractive
